@@ -1,14 +1,14 @@
 {
   "name": "ngx-autofocus-fix",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "repository": {
     "type": "git",
-    "url": "git@github.com:korniychuk/angular-autofocus-fix.git"
+    "url": "git@github.com:felipeplets/angular-autofocus-fix.git"
   },
   "author": {
-    "name": "Anton Korniychuk",
-    "email": "dev@korniychuk.pro",
-    "url": "https://korniychuk.pro"
+    "name": "Felipe Plets",
+    "email": "felipe@plets.me",
+    "url": "https://plets.me"
   },
   "engines": {
     "node": ">=8.0.0 <13.0.0"
@@ -40,10 +40,13 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/korniychuk/angular-autofocus-fix/issues"
+    "url": "https://github.com/felipeplets/angular-autofocus-fix/issues"
   },
   "peerDependencies": {
     "@angular/common": ">=5.0.0",
     "@angular/core": ">=5.0.0"
+  },
+  "dependencies": {
+    "tslib": "^2.0.0"
   }
 }

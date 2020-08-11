@@ -85,13 +85,13 @@ class SelfFocusingDirective implements OnInit {
   `,
 })
 class TestWrapperComponent {
-  @ViewChild(FocusBindingDirective, { static: false })
+  @ViewChild(FocusBindingDirective)
   public focusBindingDir!: FocusBindingDirective;
 
-  @ViewChild(SelfFocusingDirective, { static: false })
+  @ViewChild(SelfFocusingDirective)
   public selfFocusingDir!: SelfFocusingDirective;
 
-  @ViewChild(AutofocusFixDirective, { static: false })
+  @ViewChild(AutofocusFixDirective)
   public dir!: TestAutofocusFixDirective;
 
   public showNoFocusable = false;
