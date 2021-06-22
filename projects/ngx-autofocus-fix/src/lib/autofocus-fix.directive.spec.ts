@@ -1,6 +1,6 @@
 import { Component, Directive, ElementRef, Inject, OnInit, ViewChild } from '@angular/core';
 import { CommonModule, DOCUMENT } from '@angular/common';
-import { ComponentFixture, inject, TestBed } from '@angular/core/testing';
+import { ComponentFixture, TestBed, inject } from '@angular/core/testing';
 import { By } from '@angular/platform-browser';
 
 import { AutofocusFixDirective } from './autofocus-fix.directive';
@@ -401,6 +401,7 @@ describe(AutofocusFixDirective.prototype.constructor.name, () => {
             fixture.detectChanges();
           }),
         );
+
       });
 
     });
